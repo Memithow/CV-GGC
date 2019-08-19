@@ -1,0 +1,290 @@
+/*
+Paleta de colores propuesta:
+#93FF4C Limon
+#EBB446 Amarillo palido
+#FF5086 Rosa solido
+#3C3CE8 Azul rey
+#38FFBA Turqueza
+*/
+
+html, body {
+    height: 100%;
+  }
+
+body{
+	background-color: #2f5975;
+	font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2em;
+}
+
+.t-grande{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.pin-top {
+    position: relative;
+}
+
+.pin-bottom {
+    position: relative;
+}
+
+.pinned {
+    position: fixed !important;
+}
+
+.navegador{
+    background: black;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 10%;
+    left: 30px;
+    top: 30px;
+    position: fixed;
+}
+
+.fixed-action-btn{
+    bottom: 30px;
+    right: 30px;
+}
+
+.sidenav-trigger i{
+    font-size: 40px;
+    color: white;
+}
+
+.brand-logo{
+	font-size: 1em !important;
+}
+
+#triangulo-banner {
+    display: block;
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid #f0ad4e;
+    border-bottom: 100px solid #f0ad4e;
+    z-index: 30;
+    bottom: 0px;
+}
+
+#triangulo-gris {
+    display: block;
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid rgb(176, 172, 169);
+    border-left: 100px solid rgb(176, 172, 169);
+    border-bottom: 100px solid transparent;
+    z-index: 5;
+    top: 0px;
+}
+
+#triangulo{
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 20;
+    position: absolute;
+    bottom: 0px;
+    border-right-color: transparent !important;
+    border-left-color: #0190AF !important;
+    border-top-color: transparent !important;
+    border-bottom-color: #0190AF !important;
+	border-style: solid !important;
+}
+
+#titulo{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 4em;
+	z-index: 1000;
+	position: absolute;
+	vertical-align: middle;
+	color: white;
+	font-weight: 700;
+	text-align: left;
+    top:50%;
+}
+
+h5{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.circle_p{
+    width: 200px;
+    height: 200px;
+    border: solid white 10px;
+    border-radius: 50%;
+    background: transparent;
+    overflow: hidden;
+}
+
+.c-uno, .c-dos, .c-tres{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: solid white 3px;
+    background: white;
+    overflow: hidden;
+}
+
+.c-uno{
+    margin-top: 15%; 
+    margin-left: 10%; 
+    text-align: center;
+    display: none;
+}
+
+.c-dos{
+    margin-top: 40%;
+    margin-left: 75%;
+    display: none;
+}
+
+.c-tres{
+    margin-top: 60%; 
+    margin-left: 5%; 
+    display: none;
+}
+
+.navegador-cont{
+    height: 100px;
+}
+
+.text-nav{
+    font-size: 3rem;
+    line-height: 100px;
+}
+
+.habilidades{
+    height: 150px;
+    width: 100px;
+    padding-top: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.habilidades img{
+    height: 100px;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+
+    .t-grande{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    #titulo{
+        font-size: 5em;
+    }
+
+    .fixed-action-btn{
+        top: 30px;
+        right: 30px;
+        bottom: unset;
+    }
+
+    #section_perfil{
+        font-size: 1.5rem; 
+    }
+
+}
+
+@media(min-width: 1024px){
+
+    body{
+        font-size: 1em;
+    }
+
+    .t-grande{
+        font-size: 1.3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .p-relative{
+        position: relative;
+    }
+
+    .formacion{
+        text-align: right;
+    }
+    
+    #resumen p{
+        font-size: 1.2rem; 
+    }
+
+    .c-uno{
+        display: block;
+    }
+    .c-dos{
+        display: block;
+    }
+    .c-tres{
+        display: block;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    body{
+        font-size: 1rem;
+    }
+
+    .navegador i{
+        font-size: 50px;
+    }
+
+    .c-uno{
+        margin-top: 5%; 
+        margin-left: 15%; 
+    }
+
+    .c-dos{
+        margin-top: 25%;
+        margin-left: 75%;
+    }
+
+    .c-tres{
+        margin-top: 40%; 
+        margin-left: 10%; 
+    }
+
+    .navegador-cont{
+        height: 150px;
+    }
+
+    .text-nav{
+        font-size: 4rem;
+        line-height: 150px;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    .c-uno{
+        margin-top: 100px; 
+        margin-left: 300px; 
+    }
+
+    .c-dos{
+        margin-top: 350px;
+        margin-right: 300px
+        margin-left: auto;
+    }
+
+    .c-tres{
+        margin-top: 600px; 
+        margin-left: 200px; 
+    }
+}
