@@ -223,37 +223,37 @@
 <!-- Lenguajes -->
               <div><h5 class="text-white my-5 mx-5">Lenguajes</h5></div>
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="HTML-5" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/html5.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="HTML-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/html5.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="CSS-3" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/css3.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="CSS-3" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/css3.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JavaScript" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/javascript.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JavaScript" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/javascript.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="PHP" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/php.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="PHP" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/php.png')}}">
                   </div>
                 </div>
 
 <!-- Frameworks -->
                 <div><h5 class="text-white my-5 mx-5">Frameworks</h5></div>
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Laravel" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/laravel.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Laravel" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/laravel.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JQuery" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/jquery.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JQuery" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/jquery.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Bootstrap" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/bootstrap.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Bootstrap" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/bootstrap.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="AnimateJs" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/animejs.jpg')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="AnimateJs" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/animejs.jpg')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Materialize" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/materialize.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Materialize" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/materialize.png')}}">
                   </div>
                 </div>
 
 <!-- Herramientas -->
                 <div><h5 class="text-white my-5 mx-5">Herramientas</h5></div>
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Git"  data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/git.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Git"  data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/git.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="GitHub"  data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/github.svg')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="GitHub"  data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/github.svg')}}">
                   </div>
                 </div>
 
