@@ -63,10 +63,14 @@ body{
 	position: absolute;
     width: 0;
     height: 0;
-    border-right: 100px solid transparent;
-    border-top: 100px solid transparent;
-    border-left: 100px solid #f0ad4e;
-    border-bottom: 100px solid #f0ad4e;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-left-color: #f0ad4e;
+    border-left-style: solid;
+    border-bottom-color: #f0ad4e;
+    border-bottom-style: solid;
     z-index: 30;
     bottom: 0px;
 }
@@ -76,10 +80,14 @@ body{
 	position: absolute;
     width: 0;
     height: 0;
-    border-right: 100px solid transparent;
-    border-top: 100px solid rgb(176, 172, 169);
-    border-left: 100px solid rgb(176, 172, 169);
-    border-bottom: 100px solid transparent;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: rgb(176, 172, 169);
+    border-top-style: solid;
+    border-left-color: rgb(176, 172, 169);
+    border-left-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
     z-index: 5;
     top: 0px;
 }
@@ -91,23 +99,27 @@ body{
     z-index: 20;
     position: absolute;
     bottom: 0px;
-    border-right-color: transparent !important;
-    border-left-color: #0190AF !important;
-    border-top-color: transparent !important;
-    border-bottom-color: #0190AF !important;
-	border-style: solid !important;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-left-color: #0190AF;
+    border-left-style: solid;
+    border-bottom-color: #0190AF;
+    border-bottom-style: solid;
 }
 
 #titulo{
 	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 4em;
+	font-size: 2.5em;
 	z-index: 1000;
 	position: absolute;
 	vertical-align: middle;
 	color: white;
 	font-weight: 700;
 	text-align: left;
-    top:50%;
+    top:40%;
+    line-height: 100%;
 }
 
 h5{

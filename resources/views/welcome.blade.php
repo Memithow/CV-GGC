@@ -60,7 +60,7 @@
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
 
-<!-- Banner -->
+<!-- Banner Parallx -->
         <header>
             <div class="parallax-container parallax1">
               <div class="parallax">
@@ -68,7 +68,7 @@
                 <div id="triangulo"></div>
                 <div id="triangulo-gris"></div>
                 <div id="titulo"><STRONG>Guillermo González <br> Cayetano</STRONG></div>
-                <img class="banner" id="banner-1300" src="{{ asset('img/banner-1300.JPG') }}">     
+                <img class="banner" id="banner-image"> 
               </div>
             </div>
         </header>
@@ -81,6 +81,7 @@
           <section>
           <div class="cantainer">
 
+<!-- Image Icon -->
             <div class="circle_p c-uno shadow-lg" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000"><img width="110%" style="margin-top: -5%; margin-left: -5%" src="{{ asset('img/25años.png')}}" id="25a"></div>
             <div class="circle_p c-dos shadow-lg" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="2000"><img width="100%" src="{{ asset('img/azcapotzalco.png') }}"></div>
             <div class="circle_p c-tres shadow-lg" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="3000"><img width="100%" src="{{ asset('img/UNAM.svg') }}"></div>
@@ -88,7 +89,8 @@
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="3000">
               <div class="circle_p my-5 shadow"><img width="100%" src="{{ asset('img/profile.jpg')}}" alt="SelfieMemo"></div>
             </div>
-              
+
+<!-- Datos -->
             <div class="row mb-0 pb-5 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
               <div id="section_perfil" class="col-12 col-md-6 col-lg-5 col-xl-4 pb-md-5 text-white">
                 <div class="p-relative">
@@ -114,6 +116,7 @@
               </div>
             </div>
 
+<!-- Resumen -->
             <div class="row d-flex justify-content-center pb-5 mb-0" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
               <div class="col-11 col-md-9 col-lg-7 text-white" id="resumen">
                 <h4 class="text-white">Resumen</h4>
@@ -137,8 +140,9 @@
           <section>
             <div class="cantainer mt-5 justify-content-around mb-0" id="alineacion-media">
               <div class="row d-flex justify-content-center mt-5 mb-0">
-                
-                <div class="card col-10 col-md-5 col-lg-3 col-xl-2 mx-5" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+
+<!-- Siegfried -->
+                <div class="card col-9 col-md-5 col-lg-3 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/Siegfried.png') }}">
                   </div>
@@ -161,7 +165,8 @@
                   </div>
                 </div>
 
-                <div class="card col-10 col-lg-3 col-md-5 col-xl-2 mx-5" data-aos="flip-down" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+<!-- B2B -->
+                <div class="card col-9 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-down" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/b2b.png') }}">
                   </div>
@@ -182,7 +187,8 @@
                   </div>
                 </div>
 
-                <div class="card col-10 col-lg-3 col-md-5 col-xl-2 mx-5" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+<!-- CyMA -->
+                <div class="card col-9 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/CyMA.jpg') }}" alt="CYMA Azcapotzalco">
                   </div>
@@ -207,58 +213,59 @@
         </div>
 
 <!-- Habilidades -->
-        <div id="green" class="block pink lighten-1">
+        <div id="red" class="block pink lighten-1">
           <div class="nav-wrapper d-flex justify-content-center shadow navegador-cont">
               <h5 class="text-white my-0 text-nav">Habilidades</h5>
           </div>
           <section>
             <div class="cantainer">
+
+<!-- Lenguajes -->
               <div><h5 class="text-white my-5 mx-5">Lenguajes</h5></div>
-              <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000">
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/html5.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="HTML-5" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/html5.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/css3.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="CSS-3" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/css3.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/javascript.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JavaScript" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/javascript.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/php.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="PHP" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/php.png')}}">
                   </div>
                 </div>
-              </div>
-              <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000">
+
+<!-- Frameworks -->
                 <div><h5 class="text-white my-5 mx-5">Frameworks</h5></div>
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/laravel.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Laravel" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/laravel.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/jquery.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="JQuery" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/jquery.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/bootstrap.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Bootstrap" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/bootstrap.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/animejs.jpg')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="AnimateJs" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/animejs.jpg')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/materialize.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Materialize" data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/materialize.png')}}">
                   </div>
                 </div>
-              </div>
-              <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000">
+
+<!-- Herramientas -->
                 <div><h5 class="text-white my-5 mx-5">Herramientas</h5></div>
                 <div class="row d-flex justify-content-left">
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/git.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="Git"  data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/git.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/github.svg')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="GitHub"  data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000"><img src="{{ asset('img/github.svg')}}">
                   </div>
                 </div>
-              </div>
-              <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-duration="2000">
-                <div><h5 class="text-white my-5 mx-5">DataBase</h5></div>
+
+<!-- Databeses -->
+                <div><h5 class="text-white my-5 mx-5">DataBases</h5></div>
                 <div class="row d-flex justify-content-left mb-0">
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/sql.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="SQL"  data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/sql.png')}}">
                   </div>
-                  <div class="white border shadow my-5 mx-5 habilidades"><img src="{{ asset('img/mysql.png')}}">
+                  <div class="white border shadow my-5 mx-5 habilidades tooltipped" data-position="top" data-tooltip="MY SQL" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"><img src="{{ asset('img/mysql.png')}}">
                   </div>
                 </div>
-              </div>
+
             </div>
           </section>
         </div>
