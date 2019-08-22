@@ -14,6 +14,7 @@
 
 
 <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/normalize.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/fontawesome.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
