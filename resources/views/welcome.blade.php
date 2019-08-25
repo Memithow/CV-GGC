@@ -288,7 +288,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <a href="{{ Route('mail.send') }}" class="modal-close waves-effect waves-green btn-flat btn">Enviar</a>
+          <a href="########" class="modal-close waves-effect waves-green btn-flat btn">Enviar</a>
         </div>
       </div>
 
