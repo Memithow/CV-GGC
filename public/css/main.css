@@ -186,6 +186,10 @@ h5{
     height: 100px;
 }
 
+.modal {
+    max-height: 35%;
+}
+
 @media (min-width: 768px) {
 
     .t-grande{

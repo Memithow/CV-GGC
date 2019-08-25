@@ -5,6 +5,7 @@ $(document).ready(function(){
 	$('.sidenav').sidenav();
 	$('.fixed-action-btn').floatingActionButton({direction: 'left'});
 	$('.tooltipped').tooltip();
+	$('.modal').modal();
 });
 
 $(window).on("resize", function(){

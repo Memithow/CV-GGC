@@ -32,10 +32,9 @@
           <i class="fas fa-user"></i>
         </a>
         <ul>
-          <li><a class="btn-floating blue"><i class='fab fa-facebook-f text-white'></i></a></li>
-          <li><a class="btn-floating green"><i class="fas fa-phone-alt"></i></a></li>
-          <li><a class="btn-floating red"><i class="far fa-envelope"></i></a></li>
-          <li><a class="btn-floating orange"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="btn-floating waves-effect waves-light blue" href="https://www.linkedin.com/in/guillermo-gonz%C3%A1lez-cayetano-b5915b110/" target="_blank"><i class="fab fa-linkedin-in text-white"></i></a></li>
+          <li><a class="btn-floating green waves-effect waves-light" href="https://wa.me/525552885351?text=Hola¡%20Acabo%20de%20ver%20tu%20CV" target="_blank"><i class="fas fa-phone-alt"></i></a></li>
+          <li><a class="btn-floating red waves-effect waves-light modal-trigger" href="#mail"><i class="far fa-envelope"></i></a></li>
         </ul>
       </div>
 
@@ -99,20 +98,20 @@
                 <p class="t-grande"><strong>Guillermo González Cayetano</strong></p><br>
                 </div>
                 <div class="p-relative">
-                <p class="mb-0 mb-md-3">Edad</p>
-                <p class="t-grande"><strong>25 Años</strong></p><br>
+                <p class="mb-0 mb-md-3">Edad:</p>
+                <p class="t-grande"><strong>25 Años.</strong></p><br>
                 </div>
                 <div class="p-relative">
-                <p class="mb-0 mb-md-3">Estado civil</p>
-                <p class="t-grande"><strong>Soltero</strong></p><br>
+                <p class="mb-0 mb-md-3">Estado civil:</p>
+                <p class="t-grande"><strong>Soltero.</strong></p><br>
                 </div>
                 <div class="p-relative">
-                <p class="mb-0 mb-md-3">Ubicación</p>
-                <p class="t-grande"><strong>Azcapotzalco, CDMX</strong></p><br>
+                <p class="mb-0 mb-md-3">Ubicación:</p>
+                <p class="t-grande"><strong>Azcapotzalco, CDMX.</strong></p><br>
                 </div>
                 <div class="p-relative">
-                <p class="mb-0 mb-md-3">Formación</p>
-                <p class="t-grande formacion"><strong>Ing. Telecomunicaciones,<br> sistemas y electrónica <br></strong>
+                <p class="mb-0 mb-md-3">Formación:</p>
+                <p class="t-grande formacion"><strong>Ing. Telecomunicaciones,<br> sistemas y electrónica. <br></strong>
                 </p></div>
               </div>
             </div>
@@ -120,12 +119,13 @@
 <!-- Resumen -->
             <div class="row d-flex justify-content-center pb-5 mb-0" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
               <div class="col-11 col-md-9 col-lg-7 text-white" id="resumen">
-                <h4 class="text-white">Resumen</h4>
-                <p>Soy estudiante en proceso de ser pasante. Tengo interés sobre las áreas de desarrollo de software y desarrollo web.</p><br>
+                <h4 class="text-white">Acerca de mí</h4>
 
-                <p>Mi intención actualmente es aprender y adquirir experiencia sobre mis objetivos; tener un panorama más amplio de lo que puedo dar y a donde puedo llegar. A cambio me comprometo a ser totalmente servicial y ofrecer mis habilidades para todo proceso que me ayude a alcanzar a mis metas.</p><br>
-
-                <p>Me considero una persona que aprende rápido, autónomo, entregado, ordenado y servicial.</p><br><br><br>
+                <p>Deseo expandir mis conocimientos por medio de la practica, particularmente en las áreas de desarrollo de software, desarrollo web y telecomunicaciones.</p> 
+                <br>
+                <p>Siempre busco la manera de superarme a mí mismo y encuentro soluciones de manera eficiente y eficaz.</p>
+                <br>
+                <p>Me considero una persona que aprende rápido, autónomo, dedicado, ordenado y tolerante.</p><br><br><br>
               </div>
             </div>  
 
@@ -143,7 +143,7 @@
               <div class="row d-flex justify-content-center mt-5 mb-0">
 
 <!-- Siegfried -->
-                <div class="card col-9 col-md-5 col-lg-3 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+                <div class="card col-6 col-md-5 col-lg-3 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/Siegfried.png') }}">
                   </div>
@@ -167,7 +167,7 @@
                 </div>
 
 <!-- B2B -->
-                <div class="card col-9 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-down" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+                <div class="card col-6 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-down" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/b2b.png') }}">
                   </div>
@@ -189,7 +189,7 @@
                 </div>
 
 <!-- CyMA -->
-                <div class="card col-9 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+                <div class="card col-6 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="{{ asset('img/CyMA.jpg') }}" alt="CYMA Azcapotzalco">
                   </div>
@@ -269,6 +269,26 @@
 
             </div>
           </section>
+        </div>
+      </div>
+
+<!-- Modal Mail -->
+      <div id="mail" class="modal">
+        <div class="modal-content">
+          <h4>Hola¡</h4>
+          <p>Permiteme enviar mi CV a tu correo electrónico.</p>
+          <div class="row">
+            <div class="col-12">
+            Regalame tu correo elctrónico:
+              <div class="input-field inline">
+                <input id="email_inline" type="email" class="validate">
+                <label for="email_inline">Email</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="{{ Route('mail.send') }}" class="modal-close waves-effect waves-green btn-flat btn">Enviar</a>
         </div>
       </div>
 
