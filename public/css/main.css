@@ -13,13 +13,14 @@ html, body {
 
 body{
 	background-color: #2f5975;
-	font-family: 'Lexend Deca', sans-serif;
+	font-family: 'Muli', sans-serif;
     font-size: 1.2em;
+    color:white;
 }
 
 .t-grande{
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 .pin-top {
@@ -127,10 +128,22 @@ h5{
     font-weight: 500;
 }
 
+#blue{
+    background-color: #2955D6;
+}
+
+#red{
+    background-color: #7721BD;
+}
+
+#green{
+    background-color: #D6225D;
+}
+
 .circle_p{
     width: 200px;
     height: 200px;
-    border: solid white 10px;
+    border: solid white 3px;
     border-radius: 50%;
     background: transparent;
     overflow: hidden;
@@ -164,13 +177,35 @@ h5{
     display: none;
 }
 
-.navegador-cont{
+.card-badges ul {
+    margin-top: 10px;
+}
+
+.card-badges li {
+    display: inline-block;
+    white-space: nowrap;
+    border: solid white 1px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navegador-cont  li{
     height: 100px;
 }
 
 .text-nav{
     font-size: 3rem;
     line-height: 100px;
+}
+
+.escudo{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%; 
+    opacity: .5
 }
 
 .habilidades{
@@ -190,11 +225,20 @@ h5{
     max-height: 35%;
 }
 
+.relleno{
+    display: none !important;
+}
+
+.t-grande{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
 @media (min-width: 768px) {
 
     .t-grande{
-        font-size: 2rem;
-        font-weight: 800;
+        font-size: 1.5rem;
     }
 
     #titulo{
@@ -216,12 +260,12 @@ h5{
 @media(min-width: 1024px){
 
     body{
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     .t-grande{
         font-size: 1.3rem;
-        position: absolute;
+        
         top: 0;
         right: 0;
     }
@@ -235,7 +279,7 @@ h5{
     }
     
     #resumen p{
-        font-size: 1.2rem; 
+        font-size: 1.3rem; 
     }
 
     .c-uno{
@@ -253,7 +297,7 @@ h5{
 @media (min-width: 1200px) {
 
     body{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .navegador i{
@@ -284,6 +328,10 @@ h5{
         line-height: 150px;
     }
 
+    .relleno{
+        display: block !important;
+    }
+
 }
 
 @media (min-width: 1800px) {
@@ -302,5 +350,9 @@ h5{
     .c-tres{
         margin-top: 600px; 
         margin-left: 200px; 
+    }
+
+    .relleno{
+        display: block !important;
     }
 }

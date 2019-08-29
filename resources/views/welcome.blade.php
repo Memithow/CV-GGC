@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
         <script src="{{ asset('js/fontawesome.min.js') }}"></script>
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 
 
 <!-- Styles -->
@@ -74,50 +75,42 @@
         </header>
               
 <!-- Perfil -->
-        <div id="blue" class="block blue">
+        <div id="blue" class="block">
             <div class="nav-wrapper d-flex justify-content-center shadow navegador-cont">
               <h5 class="text-white my-0 align-middle text-nav">Perfil</h5>
             </div>
           <section>
           <div class="cantainer">
-
-<!-- Image Icon -->
-            <div class="circle_p c-uno shadow-lg" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000"><img width="110%" style="margin-top: -5%; margin-left: -5%" src="{{ asset('img/25años.png')}}" id="25a"></div>
-            <div class="circle_p c-dos shadow-lg" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="2000"><img width="100%" src="{{ asset('img/azcapotzalco.png') }}"></div>
-            <div class="circle_p c-tres shadow-lg" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="3000"><img width="100%" src="{{ asset('img/UNAM.svg') }}"></div>
-
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="3000">
               <div class="circle_p my-5 shadow"><img width="100%" src="{{ asset('img/profile.jpg')}}" alt="SelfieMemo"></div>
             </div>
 
 <!-- Datos -->
-            <div class="row mb-0 pb-5 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
-              <div id="section_perfil" class="col-12 col-md-6 col-lg-5 col-xl-4 pb-md-5 text-white">
-                <div class="p-relative">
-                <p class="mb-0 mb-md-3">Nombre</p>
-                <p class="t-grande"><strong>Guillermo González Cayetano</strong></p><br>
+            <div class="row mb-0 pb-5 d-flex justify-content-center">
+
+              <div id="section_perfil" class="col-12 col-md-6 col-lg-8 col-xl-8 pb-md-5 text-white d-flex justify-content-center">
+
+                <div class="row">
+                  <div class="col-12">
+                    <p class="mb-0 mb-md-3 t-grande text-center"  data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" style="font-size: 2rem">Guillermo González Cayetano</p><br>
+                    
+                    <p class="mb-0 mb-md-3 t-grande text-center"  data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Ing. Telecomunicaciones, sistemas y electrónica. </p> <br>
+                    
+                    <p class="t-grande mb-0 mb-md-3 text-center"  data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Ubicación: Azcapotzalco, CDMX.</p><br>
+
+                    <p class="t-grande mb-0 mb-md-3 text-center"  data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Estado civil: Soltero.</p><br>
+
+                    <p class="t-grande mb-0 mb-md-3 text-center" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Edad: 25 años.</p><br>
                 </div>
-                <div class="p-relative">
-                <p class="mb-0 mb-md-3">Edad:</p>
-                <p class="t-grande"><strong>25 Años.</strong></p><br>
+
                 </div>
-                <div class="p-relative">
-                <p class="mb-0 mb-md-3">Estado civil:</p>
-                <p class="t-grande"><strong>Soltero.</strong></p><br>
-                </div>
-                <div class="p-relative">
-                <p class="mb-0 mb-md-3">Ubicación:</p>
-                <p class="t-grande"><strong>Azcapotzalco, CDMX.</strong></p><br>
-                </div>
-                <div class="p-relative">
-                <p class="mb-0 mb-md-3">Formación:</p>
-                <p class="t-grande formacion"><strong>Ing. Telecomunicaciones,<br> sistemas y electrónica. <br></strong>
-                </p></div>
+
               </div>
             </div>
 
 <!-- Resumen -->
-            <div class="row d-flex justify-content-center pb-5 mb-0" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
+            <div class="row d-flex justify-content-center pb-5 mb-0" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+
               <div class="col-11 col-md-9 col-lg-7 text-white" id="resumen">
                 <h4 class="text-white">Acerca de mí</h4>
 
@@ -127,6 +120,9 @@
                 <br>
                 <p>Me considero una persona que aprende rápido, autónomo, dedicado, ordenado y tolerante.</p><br><br><br>
               </div>
+
+              <div class="col-5 col-md-3 col-lg-2 escudo" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="3000"><img width="100%" src="{{ asset('img/UNAM.svg') }}"></div>
+
             </div>  
 
           </div>
@@ -134,87 +130,141 @@
         </div>
 
 <!-- Experiencia -->
-        <div id="red" class="block red lighten-1 pb-5">
+        <div id="red" class="block pb-5">
             <div class="nav-wrapper d-flex justify-content-center shadow navegador-cont">
               <h5 class="text-white my-0 text-nav">Experiencia</h5>
             </div>
-          <section>
-            <div class="cantainer mt-5 justify-content-around mb-0" id="alineacion-media">
-              <div class="row d-flex justify-content-center mt-5 mb-0">
-
+          
 <!-- Siegfried -->
-                <div class="card col-6 col-md-5 col-lg-3 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="{{ asset('img/Siegfried.png') }}">
+          <section>
+            <div class="row d-flex pt-5 mt-5">
+
+              <div class="col-2 relleno"></div>
+              <div class="col-2 relleno mb-5">
+                <div class="circle_p shadow-lg d-flex bg-white"><img width="60%" class="my-auto mx-auto" src="{{ asset('img/Siegfried.png') }}"></div>
+              </div>
+
+              <div class=" col-md-auto col-12 card-content">
+                <div class="card-heading">
+                  <div class="card-title">
+                    <span>Siegfried Rhein</span><span class="bar">&nbsp;|&nbsp;</span>
+                    <!--anchor-->
+                    <small>Desarrollador Web | Front-End | Back-End | Becario</small>
+                    <!--anchor-->
                   </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Siegfried Rhein <br>Febrero 2019 - Actual<i class="material-icons right">more_vert</i></span>
-                    <p><a href="https://siegfried.com.mx/" target="_blank">Enlace Pagina Web</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Siegfried Rhein<i class="material-icons right">close</i></span>
-                    <p>Empresa farmacéutica dedicada al desarrollo, producción, comercialización de productos farmacéuticos y distribución de productos.</p>
-                    <p>Becario de desarollo web.</p>
-                    <p>Desarrollo de aplicaciones internas para procesos administrativos internos.</p>
-                    <p>Creación de dos aplicaciones web para formularios de administracion, plantilla para uso de OrbixPharma e implementacion de plantillas de notificacion por correo electrónico con HTML para mejorar vista.</p>
-                    <p>Desarrollo de herramientas con framework como Laravel, Bootstrap, JQuery, JavaScript, AnimateCSS.</p>
-                    <br><br><br>
-                    <p><address>Coprorativo Santa Fe, Antonio Dovalí Jaime #70, Torre D, Piso12, Santa Fe Del. Álvaro Obregón C.P. 01210 México, Ciudad de México.</address></p>
-                    <div class="d-flex justify-content-center">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.040531436313!2d-99.25973139999999!3d19.3673976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1d726dd88fd9%3A0x3f477e11a4931309!2sSiegfried+Rhein%2C+S.A.+de+C.V.!5e0!3m2!1ses!2smx!4v1566088981215!5m2!1ses!2smx" width="90%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                  </div>
+                  <div class="card-date">Febrero 2019 - Actual</div>
                 </div>
+                <ul class="card-badges mt-3">
+                  <li>PHP</li>
+                  <li>Laravel</li>
+                </ul>
+                <!--anchor-->
+                <ul class="card-details">
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Desarrollo de aplicaciones administrativas internas.</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Creación de plantillas HTML para notificaciones via correo electrónico.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-4 relleno"></div>
+            </div>
 
 <!-- B2B -->
-                <div class="card col-6 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-down" data-aos-duration="3000" data-aos-anchor-placement="top-center">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="{{ asset('img/b2b.png') }}">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">B2B Servicios <br>Agosto 2018 – Enero 2019<i class="material-icons right">more_vert</i></span>
-                    <p><a href="http://www.b2bservicios.com/" target="_blank">Enlace Pagina Web</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">B2B Servicios<i class="material-icons right">close</i></span>
-                    <p>Empresa dedicada a proporcionar Cconsultoría en tecnología e implementación procesos de negocio relacionados a la cadena de suministro, a través de un portal basado en plataforma web, modular y escalable a mediana o gran empresa.</p>
-                    <p>Desempeño de inventario de equipos, soporte técnico, administración de red inalámbrica, restauración de PST, confidencialidad de información financiera, elaboración de reportes, auditoria en gestión de activos.</p>
-                    <p>Implementación de ISO 27001 (Seguridad de Información) con certificación exitosa.</p>
-                    <br><br><br>
-                    <p><address>Prado Sur No. 245, Col. Lomas de Chapultepec, Deleg. Miguel Hidalgo, C.P. 11000, México D.F.</address></p>
-                    <div class="d-flex justify-content-center">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4473387712756!2d-99.18389538473423!3d19.436270686882246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201f6b1bfcc91%3A0x4d46ef720c84ea86!2sDigital+B2B!5e0!3m2!1ses!2smx!4v1566089148418!5m2!1ses!2smx" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  </div>
-                  </div>
-                </div>
+            <div class="row d-flex pt-5 mt-5">
 
-<!-- CyMA -->
-                <div class="card col-6 col-lg-3 col-md-5 col-xl-2 mx-5 pulse" data-aos="flip-up" data-aos-duration="3000" data-aos-anchor-placement="top-center">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="{{ asset('img/CyMA.jpg') }}" alt="CYMA Azcapotzalco">
+              <div class="col-4 relleno"></div>
+
+              <div class=" col-md-auto col-12 card-content">
+                <div class="card-heading">
+                  <div class="card-title">
+                    <span>B2B Servicios</span><span class="bar">&nbsp;|&nbsp;</span>
+                    <!--anchor-->
+                    <small>Sistemas | ISO 27001 | Becario</small>
+                    <!--anchor-->
                   </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">CyMA Azcapotzalco <br>Enero 2017 – Junio 2018<i class="material-icons right">more_vert</i></span>
-                    <p><a href="http://www.cyma.mx/" target="_blank">Enlace Pagina Web</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">CyMA Azcapotzalco<i class="material-icons right">close</i></span>
-                    <p>Distribuidora de accesorios, equipos de cómputo, servicios de soporte técnico y consultoria de servicios para facturacion plataforma Aspel.</p>
-                    <p>Soporte técnico a medianas y pequeñas empresas, implementación de sistemas Aspel SAE, manejo de bases de datos, creación de página web.</p>
-                    <br><br><br>
-                    <p>Tierra Fria No. 107, Col. Tierra Nueva, Del. Azcapotzalco, C.P. 02130, Mexico CDMX.</p>
-                    <div class="d-flex justify-content-center">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.969168314742!2d-99.20435868468292!3d19.499962243575233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20297e7d5d80d%3A0x2519c8bb42db9ad!2sCalle+Tierra+Fr%C3%ADa+107%2C+Tierra+Nueva%2C+02130+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1552349459164" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    </div>
-                  </div>
+                  <div class="card-date">Agosto 2018 - Enero 2019</div>
+                </div>
+                <ul class="card-badges mt-3">
+                  <li >Gestion de certificación</li>
+                  <li >Control de activos</li>
+                </ul>
+                <!--anchor-->
+                <ul class="card-details">
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Implementación ISO 27001 (Certificacion exitosa).</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Gestión de red y activos.</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Elaboración de reportes.</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-2 mb-5 relleno d-flex justify-content-end">
+                <div class="circle_p d-flex bg-white shadow-lg">
+                  <img class="my-auto mx-auto" width="80%" src="{{ asset('img/b2b.png') }}">
                 </div>
               </div>
+              <div class="col-2 relleno"></div>
             </div>
+
+<!-- CyMA -->
+            <div class="row d-flex pt-5 mt-5">
+
+              <div class="col-2 relleno"></div>
+              <div class="col-2 relleno mb-5">
+                <div class="circle_p d-flex bg-white shadow-lg"><img width="80%" class="my-auto mx-auto" src="{{ asset('img/CyMA.jpg') }}"></div>
+              </div>
+
+              <div class=" col-md-auto col-12 card-content">
+                <div class="card-heading">
+                  <div class="card-title">
+                    <span>CyMA Azcapotzalco</span><span class="bar">&nbsp;|&nbsp;</span>
+                    <!--anchor-->
+                    <small>Freelance | Soporte Tecnico </small>
+                    <!--anchor-->
+                  </div>
+                  <div class="card-date">Enero 2017 - Junio 2018</div>
+                </div>
+                <ul class="card-badges mt-3">
+                  <li>Aspel</li>
+                  <li>Windows</li>
+                  <li>Office</li>
+                </ul>
+                <!--anchor-->
+                <ul class="card-details">
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Creación pagina del sitio.</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Soporte Aspel a clientes.</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="text">Soporte técnico.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-4 relleno"></div>
+            </div>
+
           </section>
         </div>
 
 <!-- Habilidades -->
-        <div id="red" class="block pink lighten-1">
+        <div id="green" class="block">
           <div class="nav-wrapper d-flex justify-content-center shadow navegador-cont">
               <h5 class="text-white my-0 text-nav">Habilidades</h5>
           </div>
