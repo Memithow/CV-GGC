@@ -329,7 +329,7 @@ h5{
     }
 
     .relleno{
-        display: block !important;
+        display: flex !important;
     }
 
 }
@@ -353,6 +353,6 @@ h5{
     }
 
     .relleno{
-        display: block !important;
+        display: flex !important;
     }
 }

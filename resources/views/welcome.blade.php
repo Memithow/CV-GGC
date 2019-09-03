@@ -41,22 +41,26 @@
 
 <!-- Navegador -->
       <div class="navegador">
-          <ul id="slide-out" class="sidenav">
+          <ul id="slide-out" class="sidenav bg-dark">
             <li>
-              <div class="user-view">
-                <div class="background">
-                  <img src="images/office.jpg">
+              <div class="user-view py-0 px-0">
+                <div class="">
+                  <img src="{{ asset('img/menu.jpg') }}" width="100%">
                 </div>
-                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-                <a href="#name"><span class="white-text name">John Doe</span></a>
-                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                <div class="row d-flex mt-3 mb-3">
+                <a href="#banner-image" class="col-12"><span class="white-text">Guillermo González</span></a>
+                </div>
               </div>
             </li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            <li><a href="#blue"><span class="text-white">Perfil</span></a></li>
+            <li><a href="#red"><span class="text-white">Experiencia</span></a></li>
+            <li><a href="#green"><span class="text-white">Habilidades</span></a></li>
+
+            <li><div class="divider my-5"></div></li>
+
+            <li><a class="text-white" href="https://www.linkedin.com/in/guillermo-gonz%C3%A1lez-cayetano-b5915b110/" target="_blank"><i style="font-size: 1.5rem;" class="fab fa-linkedin-in text-white"></i>Linkedin</a></li>
+            <li><a class="text-white" href="https://wa.me/525552885351?text=Hola¡%20Acabo%20de%20ver%20tu%20CV" target="_blank"><i style="font-size: 1.5rem;"  class="fas fa-phone-alt text-white"></i>WhatsApp</a></li>
+            <li><a class="text-white" href="#mail"><i style="font-size: 1.5rem;" class="far fa-envelope text-white"></i>CV por mail</a></li>
           </ul>
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
@@ -94,7 +98,7 @@
                   <div class="col-12">
                     <p class="mb-0 mb-md-3 t-grande text-center"  data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" style="font-size: 2rem">Guillermo González Cayetano</p><br>
                     
-                    <p class="mb-0 mb-md-3 t-grande text-center"  data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Ing. Telecomunicaciones, sistemas y electrónica. </p> <br>
+                    <p class="mb-0 mb-md-3 t-grande text-center"  data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">Estudios: Ing. Telecomunicaciones, sistemas y electrónica. </p> <br>
                     
                     <p class="t-grande mb-0 mb-md-3 text-center"  data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" >Ubicación: Azcapotzalco, CDMX.</p><br>
 
@@ -141,7 +145,7 @@
 
               <div class="col-2 relleno"></div>
               <div class="col-2 relleno mb-5">
-                <div class="circle_p shadow-lg d-flex bg-white"><img width="60%" class="my-auto mx-auto" src="{{ asset('img/Siegfried.png') }}"></div>
+                <div class="circle_p shadow-lg d-flex bg-white" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="3000"><img width="60%" class="my-auto mx-auto" src="{{ asset('img/Siegfried.png') }}"></div>
               </div>
 
               <div class=" col-md-auto col-12 card-content">
@@ -168,6 +172,7 @@
                     <i class="fas fa-arrow-right"></i>
                     <span class="text">Creación de plantillas HTML para notificaciones via correo electrónico.</span>
                   </li>
+                  <li><a href="https://siegfried.com.mx/" class="btn teal waves-effect waves-light my-4 mx-4" target="_blank">Página del sitio</a></li>
                 </ul>
               </div>
 
@@ -207,10 +212,11 @@
                     <i class="fas fa-arrow-right"></i>
                     <span class="text">Elaboración de reportes.</span>
                   </li>
+                  <li><a href="http://www.b2bservicios.com/" target="_blank" class="btn teal waves-effect waves-light my-4 mx-4">Página del sitio</a></li>
                 </ul>
               </div>
               <div class="col-2 mb-5 relleno d-flex justify-content-end">
-                <div class="circle_p d-flex bg-white shadow-lg">
+                <div class="circle_p d-flex bg-white shadow-lg" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                   <img class="my-auto mx-auto" width="80%" src="{{ asset('img/b2b.png') }}">
                 </div>
               </div>
@@ -222,7 +228,7 @@
 
               <div class="col-2 relleno"></div>
               <div class="col-2 relleno mb-5">
-                <div class="circle_p d-flex bg-white shadow-lg"><img width="80%" class="my-auto mx-auto" src="{{ asset('img/CyMA.jpg') }}"></div>
+                <div class="circle_p d-flex bg-white shadow-lg" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="3000"><img width="80%" class="my-auto mx-auto" src="{{ asset('img/CyMA.jpg') }}"></div>
               </div>
 
               <div class=" col-md-auto col-12 card-content">
@@ -254,6 +260,7 @@
                     <i class="fas fa-arrow-right"></i>
                     <span class="text">Soporte técnico.</span>
                   </li>
+                  <li><a href="https://cyma.mx/" target="_blank" class="btn teal waves-effect waves-light my-4 mx-4">Página del sitio</a></li>
                 </ul>
               </div>
 
