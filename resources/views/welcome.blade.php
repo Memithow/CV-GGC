@@ -240,7 +240,7 @@
                     <!--anchor-->
                   </div>
                   <div class="card-date">Enero 2017 - Junio 2018</div>
-                </div>
+                </div> 
                 <ul class="card-badges mt-3">
                   <li>Aspel</li>
                   <li>Windows</li>
