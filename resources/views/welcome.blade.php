@@ -141,7 +141,7 @@
           
 <!-- Siegfried -->
           <section>
-            <div class="row d-flex pt-5 mt-5">
+            <div class="row d-flex pt-5 mt-5" data-aos="zoom-in" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
 
               <div class="col-2 relleno"></div>
               <div class="col-2 relleno mb-5">
@@ -152,9 +152,7 @@
                 <div class="card-heading">
                   <div class="card-title">
                     <span>Siegfried Rhein</span><span class="bar">&nbsp;|&nbsp;</span>
-                    <!--anchor-->
                     <small>Desarrollador Web | Front-End | Back-End | Becario</small>
-                    <!--anchor-->
                   </div>
                   <div class="card-date">Febrero 2019 - Actual</div>
                 </div>
@@ -162,7 +160,6 @@
                   <li>PHP</li>
                   <li>Laravel</li>
                 </ul>
-                <!--anchor-->
                 <ul class="card-details">
                   <li>
                     <i class="fas fa-arrow-right"></i>
@@ -180,7 +177,7 @@
             </div>
 
 <!-- B2B -->
-            <div class="row d-flex pt-5 mt-5">
+            <div class="row d-flex pt-5 mt-5" data-aos="zoom-in" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
 
               <div class="col-4 relleno"></div>
 
@@ -188,9 +185,7 @@
                 <div class="card-heading">
                   <div class="card-title">
                     <span>B2B Servicios</span><span class="bar">&nbsp;|&nbsp;</span>
-                    <!--anchor-->
                     <small>Sistemas | ISO 27001 | Becario</small>
-                    <!--anchor-->
                   </div>
                   <div class="card-date">Agosto 2018 - Enero 2019</div>
                 </div>
@@ -198,7 +193,6 @@
                   <li >Gestion de certificación</li>
                   <li >Control de activos</li>
                 </ul>
-                <!--anchor-->
                 <ul class="card-details">
                   <li>
                     <i class="fas fa-arrow-right"></i>
@@ -224,7 +218,7 @@
             </div>
 
 <!-- CyMA -->
-            <div class="row d-flex pt-5 mt-5">
+            <div class="row d-flex pt-5 mt-5" data-aos="zoom-in" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
 
               <div class="col-2 relleno"></div>
               <div class="col-2 relleno mb-5">
@@ -235,9 +229,7 @@
                 <div class="card-heading">
                   <div class="card-title">
                     <span>CyMA Azcapotzalco</span><span class="bar">&nbsp;|&nbsp;</span>
-                    <!--anchor-->
                     <small>Freelance | Soporte Tecnico </small>
-                    <!--anchor-->
                   </div>
                   <div class="card-date">Enero 2017 - Junio 2018</div>
                 </div> 
@@ -246,7 +238,6 @@
                   <li>Windows</li>
                   <li>Office</li>
                 </ul>
-                <!--anchor-->
                 <ul class="card-details">
                   <li>
                     <i class="fas fa-arrow-right"></i>
@@ -330,22 +321,19 @@
       </div>
 
 <!-- Modal Mail -->
-      <div id="mail" class="modal">
-        <div class="modal-content">
+      <div id="mail" class="modal grey darken-1">
+        <div class="modal-content grey darken-1">
           <h4>Hola¡</h4>
           <p>Permiteme enviar mi CV a tu correo electrónico.</p>
-          <div class="row">
-            <div class="col-12">
-            Regalame tu correo elctrónico:
-              <div class="input-field inline">
-                <input id="email_inline" type="email" class="validate">
+          <div class="d-flex justify-content-start">
+              <div class="input-field">
+                <input id="email_inline" type="email" required class="validate">
                 <label for="email_inline">Email</label>
               </div>
-            </div>
           </div>
         </div>
-        <div class="modal-footer">
-          <a href="########" class="modal-close waves-effect waves-green btn-flat btn">Enviar</a>
+        <div class="modal-footer grey darken-1">
+          <a href="########" class="modal-close waves-effect waves-green btn">Enviar</a>
         </div>
       </div>
 

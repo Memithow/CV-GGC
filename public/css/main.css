@@ -222,7 +222,7 @@ h5{
 }
 
 .modal {
-    max-height: 35%;
+    max-height: 300px;
 }
 
 .relleno{
@@ -253,6 +253,10 @@ h5{
 
     #section_perfil{
         font-size: 1.5rem; 
+    }
+
+    .modal {
+        max-height: 285px;
     }
 
 }
