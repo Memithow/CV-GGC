@@ -27,7 +27,7 @@ function image_parallax(){
 		                    'border-top-width': ($(".parallax1").height()/2),
 		                    'border-left-width':  ($(".parallax1").width()/4),
 		                    'border-bottom-width': ($(".parallax1").height()/2)});
-		$('#banner-image').attr('src', '../img/banner-360.jpg');
+		$('#banner-image').attr('src', '../img/banner360.jpg');
 	}else{
 		if ($(window).width() < 800){
 			$('#triangulo-banner').css({'border-right-width':  ($(".parallax1").width()/3.5),
@@ -42,7 +42,7 @@ function image_parallax(){
 			                    'border-top-width': ($(".parallax1").height()/2),
 			                    'border-left-width':  ($(".parallax1").width()/4),
 			                    'border-bottom-width': ($(".parallax1").height()/2)});
-			$('#banner-image').attr('src', '../img/banner-760.jpg');
+			$('#banner-image').attr('src', '../img/banner760.jpg');
 		}else{
 			$('#triangulo-banner').css({'border-right-width':  ($(".parallax1").width()/3),
 		                    'border-top-width': ($(".parallax1").height()/4),
@@ -56,7 +56,7 @@ function image_parallax(){
 			                    'border-top-width': ($(".parallax1").height()/2),
 			                    'border-left-width':  ($(".parallax1").width()/4),
 			                    'border-bottom-width': ($(".parallax1").height()/2)});
-			$('#banner-image').attr('src', '../img/banner-1300.jpg');
+			$('#banner-image').attr('src', '../img/banner1300.jpg');
 		}
 	}
 }
